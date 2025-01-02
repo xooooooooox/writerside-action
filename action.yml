@@ -65,8 +65,12 @@ runs:
       with:
         instance: ${{ inputs.instance }}
 
+    - name: List artifacts directory
+      run: ls -la artifacts
+      shell: bash
+
     - name: Unzip artifact
-      run: unzip -O UTF-8 -qq "artifacts/${{ env.artifact }}" -d dir
+      run: unzip -O UTF-8 -qq "artifacts/${{ env.ARTIFACT }}" -d dir
       shell: bash
 
     - name: Setup Pages
