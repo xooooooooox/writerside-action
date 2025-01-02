@@ -47,7 +47,7 @@ jobs:
     steps:
       - name: Build Writerside docs using Docker and deploy to GitHub Pages
         id: pages
-        uses: xooooooooox/writerside-action@main
+        uses: xooooooooox/writerside-action@v1
         with:
           instance: 'Writerside/radp' # <- Required: modify to your writerside instance
           docker_version: '243.22562' # <- Optional: default is 243.22562
@@ -76,7 +76,7 @@ jobs:
     steps:
       - name: Build Writerside docs using Docker and deploy to GitHub Pages
         id: pages
-        uses: xooooooooox/writerside-action@main
+        uses: xooooooooox/writerside-action@v1
         with:
           instance: 'Writerside/radp' # <- Required: modify to your writerside instance
           docker_version: '243.22562' # <- Optional: default is 243.22562
