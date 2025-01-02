@@ -9,10 +9,10 @@ inputs:
   instance:
     description: 'Specify the module name and instance ID, separated by a slash (e.g. Writerside/hi)'
     required: true
-    default: 'Writerside/radp'
+    default: 'Writerside/hi'
   docker_version:
     description: 'The Docker version to use'
-    required: true
+    required: false
     default: '243.22562'
 
 outputs:
