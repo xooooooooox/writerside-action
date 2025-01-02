@@ -2,7 +2,7 @@
 
 This GitHub Action simplifies the process of building and deploying Writerside documentation to GitHub Pages. It is
 based on the
-official [Build and publish on GitHub - Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
+official document [Build and publish on GitHub - Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
 and provides an easy-to-use interface for automating your
 documentation workflow.
 
