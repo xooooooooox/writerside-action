@@ -30,7 +30,8 @@ runs:
     - name: Define instance id and artifacts
       id: define-ids
       run: |
-        INSTANCE=${{ inputs.instance#*/ }}
+        input_instance=${{ inputs.instance }}
+        INSTANCE=${input_instance#*/}
         INSTANCE_ID_UPPER=$(echo "$INSTANCE" | tr '[:lower:]' '[:upper:]')
         ARTIFACT="webHelp${INSTANCE_ID_UPPER}2-all.zip"
         ALGOLIA_ARTIFACT="algolia-indexes-${INSTANCE_ID_UPPER}.zip"
