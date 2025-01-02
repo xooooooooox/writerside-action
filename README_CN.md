@@ -1,8 +1,8 @@
 # writerside-action
 
 这个 GitHub Action 简化了构建和部署 Writerside 文档到 GitHub Pages
-的过程。它基于官方的 [Build and publish on GitHub - Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
-文档进行编写。
+的过程。它基于官方文档 [Build and publish on GitHub - Writerside](https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html)
+进行编写。
 
 ## 功能
 
