@@ -1,7 +1,7 @@
 # writerside-action
 
 This GitHub Action simplifies the process of building and deploying Writerside documentation to GitHub Pages. It is
-based on the official `JetBrains/writerside-github-action@v4` and provides an easy-to-use interface for automating your
+based on the official [JetBrains/writerside-github-action@v4](https://github.com/marketplace/actions/build-writerside-docs-using-docker) and provides an easy-to-use interface for automating your
 documentation workflow.
 
 ## Features
