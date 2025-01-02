@@ -17,6 +17,7 @@ inputs:
 
 outputs:
   page_url:
+    value: ${{ steps.deployment.outputs.page_url }}
     description: 'The URL of the deployed GitHub Pages site'
 
 runs:
