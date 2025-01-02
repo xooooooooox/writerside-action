@@ -84,6 +84,8 @@ runs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
-      with:
-        page_url: ${{ steps.deployment.outputs.page_url }}
+
+    - name: Capture Deployment URL
+      run: echo "page_url=${{ steps.deployment.outputs.page_url }}" >> $GITHUB_ENV
+      shell: bash
 
